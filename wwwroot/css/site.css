@@ -1,0 +1,139 @@
+:root {
+    --transparent: transparent;
+    /* White */
+    --color-white: #ffffff;
+    --color-white-transparent-95: #F2FFFFFF;
+    --color-white-transparent-90: #E6FFFFFF;
+    --color-white-transparent-85: #D9FFFFFF;
+    --color-white-transparent-80: #CCFFFFFF;
+    --color-white-transparent-75: #BFFFFFFF;
+    --color-white-transparent-70: #B3FFFFFF;
+    --color-white-transparent-65: #A6FFFFFF;
+    --color-white-transparent-60: #99FFFFFF;
+    --color-white-transparent-55: #8CFFFFFF;
+    --color-white-transparent-50: #80FFFFFF;
+    --color-white-transparent-45: #73FFFFFF;
+    --color-white-transparent-40: #66FFFFFF;
+    --color-white-transparent-35: #59FFFFFF;
+    --color-white-transparent-30: #4DFFFFFF;
+    --color-white-transparent-25: #40FFFFFF;
+    --color-white-transparent-20: #33FFFFFF;
+    --color-white-transparent-15: #26FFFFFF;
+    --color-white-transparent-10: #1AFFFFFF;
+    --color-white-transparent-5: #0DFFFFFF;
+    /* Black */
+    --color-black: #000000;
+    --color-black-transparent-95: #F2000000;
+    --color-black-transparent-90: #E6000000;
+    --color-black-transparent-85: #D9000000;
+    --color-black-transparent-80: #CC000000;
+    --color-black-transparent-75: #B000000F;
+    --color-black-transparent-70: #B3000000;
+    --color-black-transparent-65: #A6000000;
+    --color-black-transparent-60: #99000000;
+    --color-black-transparent-55: #8C000000;
+    --color-black-transparent-50: #80000000;
+    --color-black-transparent-45: #73000000;
+    --color-black-transparent-40: #66000000;
+    --color-black-transparent-35: #59000000;
+    --color-black-transparent-30: #4D000000;
+    --color-black-transparent-25: #40000000;
+    --color-black-transparent-20: #33000000;
+    --color-black-transparent-15: #26000000;
+    --color-black-transparent-10: #1A000000;
+    --color-black-transparent-5: #0D000000;
+    /* Gray */
+    --color-gray-50: #F9FAFB;
+    --color-gray-100: #F3F4F6;
+    --color-gray-200: #E5E7EB;
+    --color-gray-300: #D1D5DB;
+    --color-gray-400: #9CA3AF;
+    --color-gray-500: #6B7280;
+    --color-gray-600: #4B5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1F2937;
+    --color-gray-900: #111827;
+    /* Red */
+    --color-red-50: #FEF2F2;
+    --color-red-100: #FEE2E2;
+    --color-red-200: #FECACA;
+    --color-red-300: #FCA5A5;
+    --color-red-400: #F87171;
+    --color-red-500: #EF4444;
+    --color-red-600: #DC2626;
+    --color-red-700: #B91C1C;
+    --color-red-800: #991B1B;
+    --color-red-900: #7F1D1D;
+    /* Primary */
+    --primary-50: #F0F4EA;
+    --primary-300: #98DE00;
+    --primary-500: #5BAF00;
+    --primary-600: #498B00;
+    /* Secondary */
+    --secondary-50: #FFF8E5;
+    --secondary-500: #FFB500;
+    /* Tertiary */
+    --tertiary-50: #FFEEEA;
+    --tertiary-300: #FF9B52;
+    --tertiary-500: #FF552E;
+    /* Support */
+    --support-50: #DFEAFF;
+    --support-400: #6196FF;
+    --support-500: #0942B1;
+    /* Blue */
+    --color-blue-50: #A8C5FE;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+#messagesList {
+    height: 80vh;
+    background-color: var(--primary-50);
+}
+
+.message {
+    border-radius: 10px;
+    background-color: var(--color-gray-500);
+    color: var(--color-white);
+    padding: 10px;
+    margin: 10px;
+}
+
+.user {
+    font-size: small;
+    color: var(--color-gray-200);
+    font-weight: bold;
+}
+
+.datetime {
+    font-size: xx-small;
+    float: right;
+    color: var(--color-gray-400);
+}
+
+.text {
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}

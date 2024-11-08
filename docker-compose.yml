@@ -1,0 +1,13 @@
+services:
+  chatapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    volumes:
+      - ./data:/app/data/
+
+volumes:
+  data:
+    driver: local
